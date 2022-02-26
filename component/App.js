@@ -1,8 +1,8 @@
 import html from "../core.js"
+import { connect } from "../store.js"
 import Header from "./Header.js"
 import TodoList from "./TodoList.js"
 import Footer from "./Footer.js"
-import { connect } from "../store.js"
 
 function App({ todos }) {
     return html`
